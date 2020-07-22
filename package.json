@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "playwright-container",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ian Walter",
+    "url": "https://ianwalter.dev"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "playwright": "^1.2.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.9.2",
+    "@ianwalter/renovate-config": "^1.3.0"
+  },
+  "renovate": {
+    "extends": [
+      "@ianwalter"
+    ]
+  }
+}
