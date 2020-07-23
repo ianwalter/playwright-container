@@ -1,0 +1,26 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install
+        uses: ./
+        with:
+          args: pnpm i
+      - name: Lint
+        uses: ./
+        with:
+          args: pnpm lint
+      - name: Test
+        uses: ./
+        with:
+          args: pnpm t
