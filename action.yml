@@ -1,0 +1,9 @@
+name: Playwright Container
+description: A GitHub Action / Docker image for Playwright, the browser automation library
+author: Ian Walter
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: globe
+  color: orange
