@@ -34,11 +34,11 @@ jobs:
         # NOTE: this pins the action to a specific commit sha for security
         # reasons but you can also use a version tag if desired. For example:
         # ianwalter/playwright-container@v1.1.1
-        uses: ianwalter/playwright-container@a41ba81d6c2a033597513fcd189801c512244b7e
+        uses: ianwalter/playwright-container@ec253ce35910412cc6607f5d7cfbbe89fb77c9b4
         with:
           args: pnpm i
       - name: Test
-        uses: ianwalter/playwright-container@a41ba81d6c2a033597513fcd189801c512244b7e
+        uses: ianwalter/playwright-container@ec253ce35910412cc6607f5d7cfbbe89fb77c9b4
         with:
           args: pnpm t
 ```
