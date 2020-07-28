@@ -51,6 +51,7 @@ docker pull ianwalter/playwright:v1.1.1
 
 ## Related
 
+* [`@ianwalter/bff`][bffUrl] - Your friendly test framework
 * [`ianwalter/puppeteer-container`][puppeteerUrl] - A GitHub Action / Docker
   image for Puppeteer, the Headless Chrome Node API
 
@@ -65,5 +66,6 @@ Created by [Ian Walter](https://ianwalter.dev)
 [playwrightDockerfileUrl]: https://github.com/microsoft/playwright/blob/master/docs/docker/Dockerfile.bionic
 [actionsUrl]: https://github.com/features/actions
 [dockerUrl]: https://hub.docker.com/r/ianwalter/playwright
+[bffUrl]: https://github.com/ianwalter/bff
 [puppeteerUrl]: https://github.com/ianwalter/puppeteer-container
 [licenseUrl]: https://github.com/ianwalter/playwright-container/blob/master/LICENSE
