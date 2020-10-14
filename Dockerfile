@@ -1,4 +1,4 @@
-FROM ianwalter/pnpm:v1.0.0
+FROM ianwalter/pnpm:v1.1.0
 
 LABEL "com.github.actions.name"="Playwright Container"
 LABEL "com.github.actions.description"="A GitHub Action / Docker image for Playwright, the browser automation library"
@@ -63,8 +63,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # 7. Create a directory where the browsers will be installed.
 RUN mkdir -p /opt/playwright-browsers
-ENV PLAYWRIGHT_BROWSERS_PATH /opt/playwright-browsers
+ENV PLAYWRIGHT_BROWSERS_PATH /opt/playwright-browsers/
 
 # 8. Install Playwright and the browsers using pnpm.
-RUN cd $PLAYWRIGHT_BROWSERS_PATH && pnpm add playwright --save-dev && cd $HOME
+COPY package.json pnpm-lock.yaml $PLAYWRIGHT_BROWSERS_PATH
+RUN cd $PLAYWRIGHT_BROWSERS_PATH && pnpm i --prod && cd $HOME
 ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD true
