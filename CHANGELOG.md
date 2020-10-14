@@ -1,5 +1,11 @@
 # playwright-container
 
+## 1.2.0
+
+### Minor Changes
+
+- 7332419: Update dependency playwright to ^1.5.0
+
 ## 1.1.1
 
 ### Patch Changes
