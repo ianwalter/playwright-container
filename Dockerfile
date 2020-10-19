@@ -1,4 +1,4 @@
-FROM ianwalter/pnpm:v1.1.0
+FROM ianwalter/pnpm:v1.2.0
 
 LABEL "com.github.actions.name"="Playwright Container"
 LABEL "com.github.actions.description"="A GitHub Action / Docker image for Playwright, the browser automation library"
@@ -37,7 +37,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libgstreamer-gl1.0-0 \
     libgstreamer-plugins-bad1.0-0 \
-    gstreamer1.0-plugins-good
+    gstreamer1.0-plugins-good \
+    gstreamer1.0-libav
 
 # 3. Install Chromium dependencies.
 RUN apt-get update && apt-get install -y --no-install-recommends \
