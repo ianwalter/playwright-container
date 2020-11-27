@@ -16,4 +16,4 @@ jobs:
         with:
           args: pnpm i -r
       - name: Changeset
-        uses: ianwalter/add-changeset@v1.0.8
+        uses: ianwalter/add-changeset@v1.2.2
