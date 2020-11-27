@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Install
-        uses: ianwalter/pnpm-container@v1.1.0
+        uses: ianwalter/pnpm-container@v1.3.0
         with:
           args: pnpm i -r
       - name: Changeset
