@@ -1,5 +1,12 @@
 # playwright-container
 
+## 1.3.0
+
+### Minor Changes
+
+- c59b601: Update dependency playwright to ^1.6.2
+- c65af09: Updating base image and video playback dep
+
 ## 1.2.0
 
 ### Minor Changes
