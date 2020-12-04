@@ -11,9 +11,10 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Install
-        uses: ianwalter/pnpm-container@v1.3.0
+          persist-credentials: false
+      - name: Add Changeset
+        uses: generates/changeset-action@v2.0.1
+      - name: Commit Changes
+        uses: generates/commit-action@v1.0.1
         with:
-          args: pnpm i -r
-      - name: Changeset
-        uses: ianwalter/add-changeset@v1.2.2
+          token: ${{ secrets.GH_PAT }}
