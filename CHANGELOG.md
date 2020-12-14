@@ -1,5 +1,11 @@
 # playwright-container
 
+## 2.0.0
+
+### Major Changes
+
+- 12b5b78: Update to Node.js 15.4
+
 ## 1.3.0
 
 ### Minor Changes
