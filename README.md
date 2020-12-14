@@ -36,11 +36,11 @@ jobs:
         # ianwalter/playwright-container@v1.1.1
         uses: ianwalter/playwright-container@ec253ce35910412cc6607f5d7cfbbe89fb77c9b4
         with:
-          args: pnpm i
+          args: npm ci
       - name: Test
         uses: ianwalter/playwright-container@ec253ce35910412cc6607f5d7cfbbe89fb77c9b4
         with:
-          args: pnpm t
+          args: npm test
 ```
 
 As a [Docker container][dockerUrl]:
