@@ -549,7 +549,7 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/dot/-/dot-1.0.5.tgz#060c24e9e3ea22f03d03a0f0a1434e18ada079b2"
   integrity sha512-xOtXmoeKrLudrNF5noqJPXJkMtm33A/Hhy/UPV0z5pWCtPa8pN1b5NFgrsFZsA/UsUN47MKWjLazPuZIO77ljw==
 
-"@ianwalter/eslint-config@^6.1.0":
+"@ianwalter/eslint-config@^6.2.0":
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-6.2.0.tgz#93d3b387d7c44748381af3649ec9b410d5b82375"
   integrity sha512-vx1mxFKvbYwk+Plt+xyXeKuxqH8ibW2k4sQDW/fJ/colqrahb6HaOZbym1Iclx4iwmDZ5Pk9zNbKQsKaXOmSZA==
