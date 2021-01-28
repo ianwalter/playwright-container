@@ -67,6 +67,6 @@ RUN mkdir -p /opt/playwright-browsers
 ENV PLAYWRIGHT_BROWSERS_PATH /opt/playwright-browsers/
 
 # 8. Install Playwright and the browsers.
-COPY package.json package-lock.json $PLAYWRIGHT_BROWSERS_PATH
-RUN cd $PLAYWRIGHT_BROWSERS_PATH && npm i --prod && cd $HOME
+COPY package.json yarn.lock $PLAYWRIGHT_BROWSERS_PATH
+RUN cd $PLAYWRIGHT_BROWSERS_PATH && yarn --prod && cd $HOME
 ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD true
