@@ -17,10 +17,10 @@ jobs:
           # generate changelogs with the correct commits.
           fetch-depth: 0
       - name: Install
-        run: npm ci
+        run: yarn
       - name: Changesets
         uses: changesets/action@bfeb9e077e6cf393e4c4ef17e2bbc75b308b4364
         with:
-          publish: npx changeset publish
+          publish: yarn changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
