@@ -1,4 +1,4 @@
-FROM node:15.4-buster
+FROM node:15.7-buster
 
 LABEL "com.github.actions.name"="Playwright Container"
 LABEL "com.github.actions.description"="A GitHub Action / Docker image for Playwright, the browser automation library"
