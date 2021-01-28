@@ -78,7 +78,7 @@
     "@manypkg/get-packages" "^1.0.1"
     semver "^5.4.1"
 
-"@changesets/cli@^2.12.0":
+"@changesets/cli@^2.14.0":
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/@changesets/cli/-/cli-2.14.0.tgz#b8d1d33d832c640ce0b95333bbd8d5ac5b9c9824"
   integrity sha512-rbQMRDXl1cXOglnjUvYyrFLlYBbS0YZdfxZfW3ZbGLzLoS4n50+B9fLSE9oW20hQuL3zAnyLyacb9cwNhF2lig==
@@ -371,7 +371,7 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/cloneable/-/cloneable-2.0.0.tgz#afe88576cf08e17825509c68185cd7da61354dad"
   integrity sha512-ZMKux34x/+EJIc6RCu01MmFXbW1rDSCCHvL9Bu81Hy/QGwvYu/lJACXWEbiCC/q7kDfVhA8LWNcLeMsp7G5a/A==
 
-"@ianwalter/eslint-config@^6.1.0":
+"@ianwalter/eslint-config@^6.2.0":
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-6.2.0.tgz#93d3b387d7c44748381af3649ec9b410d5b82375"
   integrity sha512-vx1mxFKvbYwk+Plt+xyXeKuxqH8ibW2k4sQDW/fJ/colqrahb6HaOZbym1Iclx4iwmDZ5Pk9zNbKQsKaXOmSZA==
@@ -3276,7 +3276,7 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-playwright@^1.6.2:
+playwright@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.8.0.tgz#8eca2250967ee892b9fdfec44e2358455ab0f8e3"
   integrity sha512-urMJDLX92KawbkWKrt3chVVBPQsuuNwlS5St7I5YQENXAEItoyUqX7FjiYaoPgXifKqe1+BKC+7pBAq1QUkgSw==

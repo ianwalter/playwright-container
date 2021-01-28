@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "playwright-container",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": {
     "name": "Ian Walter",
     "url": "https://ianwalter.dev"
@@ -13,12 +13,12 @@
     "test": "bff tests.js"
   },
   "dependencies": {
-    "playwright": "^1.6.2"
+    "playwright": "^1.8.0"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.12.0",
+    "@changesets/cli": "^2.14.0",
     "@ianwalter/bff": "^10.0.4",
-    "@ianwalter/eslint-config": "^6.1.0",
+    "@ianwalter/eslint-config": "^6.2.0",
     "@ianwalter/renovate-config": "^1.4.3"
   },
   "bff": {
