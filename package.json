@@ -9,7 +9,7 @@
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "lint": "eslint .",
-    "test": "bff"
+    "test": "bff tests.js"
   },
   "dependencies": {
     "playwright": "^1.6.2"
