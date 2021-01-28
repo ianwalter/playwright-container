@@ -1,4 +1,4 @@
-const { test } = require('@ianwalter/bff')
+import { test } from '@ianwalter/bff'
 
 test('My personal site', async t => {
   await t.page.goto('https://ianwalter.dev')
