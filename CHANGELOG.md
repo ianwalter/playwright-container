@@ -1,5 +1,15 @@
 # playwright-container
 
+## 2.2.0
+
+### Minor Changes
+
+- 9fb73d9: Update dependency playwright to ^1.10.0
+
+### Patch Changes
+
+- e2a648b: Update node Docker tag to v15.14
+
 ## 2.1.0
 
 ### Minor Changes
