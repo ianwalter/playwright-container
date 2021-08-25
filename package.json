@@ -19,7 +19,7 @@
     "@changesets/cli": "^2.16.0",
     "@ianwalter/bff": "^10.0.7",
     "@ianwalter/eslint-config": "^6.2.0",
-    "@ianwalter/renovate-config": "^1.4.4"
+    "@ianwalter/renovate-config": "^1.4.5"
   },
   "bff": {
     "plugins": [
