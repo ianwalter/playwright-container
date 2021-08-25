@@ -1,1 +1,7 @@
+.changeset
+.git
+.github
+.dockerignore
 node_modules
+config.js
+tests.js
