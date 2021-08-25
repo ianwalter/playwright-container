@@ -33,7 +33,7 @@ jobs:
       - name: Install
         # NOTE: this pins the action to a specific commit sha for security
         # reasons but you can also use a version tag if desired. For example:
-        # ianwalter/playwright-container@v1.1.1
+        # ianwalter/playwright-container@v3.0.0
         uses: ianwalter/playwright-container@ec253ce35910412cc6607f5d7cfbbe89fb77c9b4
         with:
           args: npm ci
@@ -46,14 +46,12 @@ jobs:
 As a [Docker container][dockerUrl]:
 
 ```console
-docker pull ianwalter/playwright:v1.1.1
+docker pull ianwalter/playwright:v3.0.0
 ```
 
 ## Related
 
 * [`@ianwalter/bff`][bffUrl] - Your friendly test framework
-* [`ianwalter/puppeteer-container`][puppeteerUrl] - A GitHub Action / Docker
-  image for Puppeteer, the Headless Chrome Node API
 
 ## License
 
