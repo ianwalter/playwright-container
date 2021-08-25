@@ -438,10 +438,10 @@
     marked-terminal "^4.0.0"
     strip-ansi "^6.0.0"
 
-"@ianwalter/renovate-config@^1.4.4":
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.4.4.tgz#59d03e23bf1215ca005ecfa5cbdb82692e561043"
-  integrity sha512-LJRn/jAwIrUWfH5gwibOsUVQeXJVnPhoML0Yybx4xKvowyIKY2nwzvXvR1xPa2zK4EH+EW7WeQ/+Z1vctp67XA==
+"@ianwalter/renovate-config@^1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.4.5.tgz#8e7df0446b176af3c4d88df0a71ad196b8b6bda6"
+  integrity sha512-a0rH8J/3Twqxxi+kVs0UuGq/jn7Z5jk5zIvPuLe79w0VWqXsQAvLjHT/+oiXERq+g3Dn8rHzm+zmoSVHcb94og==
 
 "@ianwalter/sleep@^0.0.1":
   version "0.0.1"
