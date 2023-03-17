@@ -20,7 +20,7 @@
     "@ianwalter/bff": "^11.2.0",
     "@ianwalter/bff-playwright": "^5.1.1",
     "@ianwalter/eslint-config": "^6.2.0",
-    "@ianwalter/renovate-config": "^1.4.5"
+    "@ianwalter/renovate-config": "^1.5.0"
   },
   "bff": {
     "plugins": [
