@@ -861,10 +861,10 @@
   dependencies:
     camelcase "^5.0.0"
 
-"@ianwalter/renovate-config@^1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.4.5.tgz#8e7df0446b176af3c4d88df0a71ad196b8b6bda6"
-  integrity sha512-a0rH8J/3Twqxxi+kVs0UuGq/jn7Z5jk5zIvPuLe79w0VWqXsQAvLjHT/+oiXERq+g3Dn8rHzm+zmoSVHcb94og==
+"@ianwalter/renovate-config@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.5.0.tgz#19529517c87296622d72b16008043358b957c038"
+  integrity sha512-XVALXzdi4LT9nJE/m7KjjHrygc5wYjijkh3jZj8XMvhckcum0GqVfXk33mZ1ofEWBuGC8DhWM0imL8pC1R3MiA==
 
 "@ianwalter/rollup-plugin-hashbang@^1.3.0":
   version "1.3.0"
